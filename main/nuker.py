@@ -5,7 +5,6 @@ import asyncio
 intents = discord.Intents.default()
 intents.message_content = True 
 
-# Set up bot with command prefix
 bot = commands.Bot(command_prefix=".", intents=intents)
 
 async def is_admin(ctx):
